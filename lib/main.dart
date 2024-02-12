@@ -47,7 +47,36 @@ class DrawerMenu extends StatelessWidget {
               ),
             ),
           ),
-          
+          ListTile(
+            title: Text('Inicio'),
+            onTap: () {
+              Navigator.pop(context);
+            },
+          ),
+          ListTile(
+            title: Text('Perfil'),
+            onTap: () {
+              Navigator.pop(context);
+            },
+          ),
+          ListTile(
+            title: Text('Contenido'),
+            onTap: () {
+              Navigator.pop(context);
+            },
+          ),
+          ListTile(
+            title: Text('Ajustes'),
+            onTap: () {
+              Navigator.pop(context);
+            },
+          ),
+          ListTile(
+            title: Text('Más Información'),
+            onTap: () {
+              Navigator.pop(context);
+            },
+          ),
         ],
       ),
     );
