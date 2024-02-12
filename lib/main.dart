@@ -32,10 +32,10 @@ class DrawerMenu extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Drawer(
-      child: ListView(
+            child: ListView(
         padding: EdgeInsets.zero,
         children: [
-          DrawerHeader(
+                    DrawerHeader(
             decoration: BoxDecoration(
               color: Colors.blue,
             ),
@@ -47,36 +47,7 @@ class DrawerMenu extends StatelessWidget {
               ),
             ),
           ),
-          ListTile(
-            title: Text('Inicio'),
-            onTap: () {
-              Navigator.pop(context);
-            },
-          ),
-          ListTile(
-            title: Text('Perfil'),
-            onTap: () {
-              Navigator.pop(context);
-            },
-          ),
-          ListTile(
-            title: Text('Contenido'),
-            onTap: () {
-              Navigator.pop(context);
-            },
-          ),
-          ListTile(
-            title: Text('Ajustes'),
-            onTap: () {
-              Navigator.pop(context);
-            },
-          ),
-          ListTile(
-            title: Text('Más Información'),
-            onTap: () {
-              Navigator.pop(context);
-            },
-          ),
+          
         ],
       ),
     );
